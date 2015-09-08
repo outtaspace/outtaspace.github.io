@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="FM">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Facility map</title>
+</head>
+<body>
+  <canvas id="map" style="width: 800px; height: 600px;"></canvas>
+
+  <div ng-view></div>
+
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/paper/dist/paper-full.min.js"></script>
+  <script src="app.js"></script>
+  <script src="basicLayout/basicLayout.js"></script>
+  <script src="basicLayout/MapControlsController.js"></script>
+  <script src="basicLayout/canvas.js"></script>
+</body>
+</html>
